@@ -11,6 +11,8 @@
   <h2>Shedule Theature Booking</h2>
 
 
+  @role('admin')
+
   <div class="alert_message"></div>
 
   <form id="scheduleForm" method="post" enctype="multipart/form-data" autocomplete="off">
@@ -126,6 +128,8 @@
 </div>
 
 </form>
+
+@endrole
 
 
 
